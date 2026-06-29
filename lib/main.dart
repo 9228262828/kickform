@@ -110,8 +110,9 @@ class _SplashScreenState extends State<SplashScreen> {
       backgroundColor: kBlack,
       body: SafeArea(
         child: Padding(
-          padding: const EdgeInsets.all(28),
+          padding: const EdgeInsets.all(80),
           child: Column(
+            crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               const Spacer(),
               Image.asset(
